@@ -4,13 +4,13 @@ header{
    top: 0;
    z-index: 1;
    height: 30vh;
-   border-bottom: 1px solid lightgray;
+   border-bottom: 0.5px solid rgba(121, 120, 120, 0.5);
    
 }
 
 
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 .fa-square-plus{
     font-size: 2rem;
