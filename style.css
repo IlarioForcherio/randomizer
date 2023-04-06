@@ -1,0 +1,46 @@
+header{
+   position: sticky;
+   width: 100%;
+   top: 0;
+   z-index: 1;
+   height: 30vh;
+   border-bottom: 1px solid lightgray;
+   
+}
+
+
+h1{
+    font-size: 2rem;
+}
+.fa-square-plus{
+    font-size: 2rem;
+    color: green;
+    cursor: pointer;
+}
+main{
+   
+    overflow-y: auto;
+    height: 50vh;
+}
+ul{
+    z-index: 1;
+    padding: 0px;
+}
+
+a{
+    cursor: pointer;
+}
+.loader{
+    z-index: 1;
+}
+.randomItem{
+font-weight: bold;
+}
+footer{
+    
+    /* margin: auto; */
+    height: 20vh;
+}
+
+
+

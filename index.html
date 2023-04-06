@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Randomizer</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<!-- font-awsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+  <header>
+    
+    <div class="row">
+      <div class="col-12 d-flex flex-column">
+      
+      <h1 class="pt-4 pb-3 text-center">Randomizer</h1>
+      <div class=" d-flex align-items-center">
+         <!-- userInput -->
+        <input placeholder="add item here" style="width: 100%;" onfocus="this.value=''" type="text" class="inputItem ">
+          <!-- button-add -->
+          <i class="ps-3 button fa-solid fa-square-plus"></i>
+      </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="loader d-none">
+      <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    </div>
+<ul></ul>
+<div class="bold randomItem text-center"></div>
+
+  </main>
+  <footer>
+    <div class="row">
+      <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+        
+            <button style="width: 100%;" class="random btn btn-outline-success">RANDOMIZE IT!</button>
+            <button style="width: 100%;" class="clear mt-4 btn btn-outline-danger">CLEAR</button>
+      </div>
+    </div>
+
+    <!-- place footer here -->
+  </footer>
+</div>
+  <script src="./main.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
